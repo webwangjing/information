@@ -1,0 +1,316 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*首页左侧部分*/
+.leftDiv{
+	background-color: #282830;
+	padding: 0px;
+	height: 1000px;
+}
+.rightDiv{
+	background-color: #EEEEEE;
+    padding: 0px;
+}
+.leftDiv-top{
+	height: 50px;
+	width: 100%;
+	background-color: #3D556D;
+}
+.leftDiv-top div{
+	display: inline-block;
+}
+.leftDiv-top img{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.leftDiv-top span{
+	color: white;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+}
+/*首页左侧下半部分*/
+.leftDiv-bottom{
+	list-style: none;
+	margin-top: 50px;
+}
+.leftDiv-bottom li{
+	height: 40px;
+	border-bottom: 1px solid gray;
+	line-height: 40px;
+	padding-left: 15px;
+}
+.leftDiv-bottom li a{
+	color: white;
+}
+.leftDiv-bottom li span{
+	display: inline-block;
+	width: 90px;
+	margin-left: 5px;
+}
+.rightDiv-top div{
+	height: 50px;
+}
+.rightDiv-top{
+	background-color: white;
+	height: 50px;
+}
+.rightDivTop-left{
+	padding: 0px;
+}
+.rightDivTop-left i{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
+}
+.rightDivTop-left span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	left:-20px;
+	top:-7px;
+	font-size: 14px;
+}
+.rightDivTop-right{
+	line-height: 50px;
+}
+.rightDivTop-right div{
+	display: inline-block;
+}
+.rightDivTop-right img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+/*右侧首页内容*/
+.rightDivContentTop-left{
+	margin-left: 20px;
+	margin-bottom: 20PX;
+}
+.RDCTL-1{
+	height: 70px;
+	background-color: white;
+	margin:10px 0px 10px 0px;
+}
+.yuan1{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:green;
+	display: inline-block;
+	margin: 13px 0px 0px 20px;
+}
+.yuan1 i{
+	width: 40px;
+	height: 40px;
+	margin: 3px 0px 0px 12px;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+}
+.RDCTL-1 span{
+	font-size: 26px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.RDCTL-2{
+	height: 70px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.yuan2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:rgb(123,48,192);
+	display: inline-block;
+	margin: 13px 0px 0px 20px;
+}
+.yuan2 i{
+	width: 40px;
+	height: 40px;
+	margin: 3px 0px 0px 12px;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+}
+.RDCTL-2 span{
+	font-size: 26px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.RDCTL-3{
+	height: 70px;
+	background-color: white;
+}
+.yuan3{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color:rgb(52,189,233);
+	display: inline-block;
+	margin: 13px 0px 0px 20px;
+}
+.yuan3 i{
+	width: 40px;
+	height: 40px;
+	margin: 3px 0px 0px 12px;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+}
+.RDCTL-3 span{
+	font-size: 26px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+.rightDivContentTop-center{
+	height: 230px;
+	margin-left: 20px;
+	margin:10px 0px 20px 0px;
+}
+.rightDivContentTop-right{
+    margin-left: 20px;
+    margin-bottom: 20PX;
+}
+.RDCTR-1 img{
+	height: 110px;
+	margin:10px 0px 10px 0px;	
+}
+.RDCTR-2 img{
+	height: 110px;
+}
+.rightDivContentBottom-left img{
+    height: 440px;
+    margin-left: 20px;
+}
+.rightDivContentBottom-right{
+    margin-left: 40px;
+}
+.RDCBR-1{
+	height: 240px;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+.RDCBR-2{
+	height: 150px;
+	background-color: yellow;
+}
+/*栏目管理*/
+.lanmuContent{
+	width: 97%;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	border:1px solid #fff;
+}
+
+div.btns{
+	margin-top: 10px;
+	margin-left: 10px
+}
+
+button{
+	margin-left: 10px
+}
+
+.lanmuContent table{
+	width: 90%;
+	margin: 20px
+}
+
+.lanmuContent table th,.lanmuContent table td{
+	text-align: center;
+}
+/*资讯管理*/
+	#info{
+		padding: 10px;
+		background-color: white;
+	}
+	#info .optionDiv{
+		overflow: hidden;
+	}
+	#info .optionDiv *{
+		float: left;
+		margin-right: 5px;
+	}
+	#info .optionDiv select{
+		width: 200px;
+		height: 30px;
+	}
+	#info table{
+		margin-top:10px;
+	}
+	#info table i{
+		cursor: pointer;
+		color:#66bb0d;
+	}
+	#info table i:nth-child(2){
+		color: red;
+	}
+	.modal{
+		background-color: rgba(0,0,0,0.4);
+	}
+	.modal-dialog{
+		width: 600px;
+		margin-top:0;
+		margin-right: 0;
+	}
+	.backDiv{
+		float: left;
+	}
+	.messageSpan{
+		color: red;
+	}
+	.modal img{
+		width: 240px;
+		height: 90px;
+	}
+/*用户管理*/
+.userContent{
+	width: 97%;
+	height: 500px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	border:1px solid #fff;
+}
+.usercard{
+	width: 200px;
+	height: 300px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.user-header img{
+	width: 80px;
+	height: 80px;
+	background-color: pink;
+	border-radius: 50%;
+	margin-left: 50px;
+    margin-top: 10px;
+}
+.user-table{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+table th,td{
+	text-align: center;
+	width: 150px;
+}
+.modal-body ul{
+	list-style: none;
+}
